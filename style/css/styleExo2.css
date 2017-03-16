@@ -1,0 +1,29 @@
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #fff;
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  padding: 15%; }
+
+table {
+  text-align: center;
+  width: 100%;
+  table-layout: fixed; }
+
+/* demo styles */
+body {
+  background: -linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4); }
+
+input[type="number"] {
+  display: none; }
+  input[type="checkbox"]:checked ~ input[type="number"] {
+    display: inline; }
+
+li.danger {
+  color: red; }
+li.succes {
+  color: #00FF00; }
